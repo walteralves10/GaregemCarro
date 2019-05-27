@@ -5,11 +5,13 @@
  */
 package model;
 
+import Controler.VendaPrototype;
+
 /**
  *
  * @author rezende
  */
-public class VendaBEAN {
+public class VendaBEAN extends VendaPrototype{
 
     private String fk_documento;
     private String fk_placa;
@@ -48,6 +50,4 @@ public class VendaBEAN {
         this.parcela = parcela;
     }
     
-    
-
 }

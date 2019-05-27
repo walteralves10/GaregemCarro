@@ -5,10 +5,13 @@
  */
 package model;
 
+import Controler.VendaPrototype;
+
 /**
  *
  * @author rezende
  */
 public class VendaDAO {
+
     
 }

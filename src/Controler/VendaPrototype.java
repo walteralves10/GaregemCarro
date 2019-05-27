@@ -9,6 +9,11 @@ package Controler;
  *
  * @author rezende
  */
-public class controler {
+public abstract class VendaPrototype {
     
+    public abstract void salvar();//inserir
+    public abstract void limpar();
+    public abstract void buscar(String temp);//select
+    
+    public abstract VendaPrototype clonar();
 }
