@@ -3,20 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package model;
+package Controler;
+
+import model.Endereco;
 
 /**
  *
  * @author walte
  */
-public class enderecoBEAN {
+public abstract class EnderecoPrototype {
     
-    private String fk_documento;
-    private String rua;
-    private String complemento;
-    private int numero;
-    private String bairro;
-    private int id_endereco;
+    protected String fk_documento;
+    protected String rua;
+    protected String complemento;
+    protected int numero;
+    protected String bairro;
+    protected int id_endereco;
+    
+    public abstract void salvarEndereco();//inserir
+    //public abstract void limparEndereco();
+    public abstract Endereco buscarEndereco(String temp);//select
+    
+    public abstract EnderecoPrototype clonarEndereco();    
 
     public String getFk_documento() {
         return fk_documento;
