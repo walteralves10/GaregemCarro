@@ -10,7 +10,7 @@ import java.sql.Statement;
 public class MySQLDAO {
 
     public static final String DRIVER = "com.mysql.jdbc.Driver";
-    public static final String DBURL = "jdbc:mysql:///produtos_soap";
+    public static final String DBURL = "jdbc:mysql:///garagem";
     private static Connection con;
 
     // metodo para criar a conexao com MySQL  
